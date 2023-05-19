@@ -26,4 +26,6 @@ features:
     details: auto rewrites directories' path to their auto-generated index.md files
   - title: support netlify deploy
     details: built-in netlify deploy config
+  - title: support git hooks
+    details: built-in git commit-msg hook to ensure the commit message satisfies Conventional Commits specification
 ---
