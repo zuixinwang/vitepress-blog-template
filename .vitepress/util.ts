@@ -56,7 +56,7 @@ const traverse = (path, parentPath = cwd) => {
   }
 }
 
-const ignoreDirs = ['.git', 'node_modules', '.vitepress', 'public']
+const ignoreDirs = ['.git', 'node_modules', '.netlify', '.vitepress', 'public']
 
 const categories = readdir(cwd)
   .filter(item => item.isDirectory() && !ignoreDirs.includes(item.name))
